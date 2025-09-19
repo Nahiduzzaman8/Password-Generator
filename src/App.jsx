@@ -6,7 +6,6 @@ function App() {
   const [numberAllowed, setNumberAllowed] = useState(false);
   const [charAllowed, setCharAllowed] = useState(true);
   const [password, setPassword] = useState("");
-
   function passGenerator(){
     let newPass = "";
     let str = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
@@ -86,11 +85,13 @@ function App() {
         />
         <p className="text-gray-200 text-center mt-2 font-semibold">Length: {length}</p>
       </div>
+      
     </div>
+
+    
   </div>
 </div>
 
   )
 }
-
 export default App
